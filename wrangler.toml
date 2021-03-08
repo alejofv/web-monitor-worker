@@ -1,0 +1,12 @@
+name = "web-monitor"
+type = "webpack"
+
+account_id = "175bd1ff268423049995f930883aacee"
+workers_dev = true
+
+route = ""
+zone_id = ""
+
+kv-namespaces = [
+    { binding = "WebMonitorKV", id = "6b4a621a153848f88056cca03bd78469", preview_id = "6b4a621a153848f88056cca03bd78469" }
+]

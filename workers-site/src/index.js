@@ -1,5 +1,5 @@
 import { webMonitor } from './services/monitor'
-import { statusPage } from './services/status'
+import { statusPage } from './services/statusPage'
 
 // scheduled event
 addEventListener('scheduled', event => {

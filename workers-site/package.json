@@ -3,7 +3,7 @@
   "name": "web-monitor",
   "version": "1.0.0",
   "description": "A template for kick starting a Cloudflare Workers project",
-  "main": "src/index.js",
+  "main": "./src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier --write '**/*.{js,css,json,md}'"
@@ -11,5 +11,8 @@
   "author": "Alejandro Figueroa <alejo.fv@outlook.com>",
   "devDependencies": {
     "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "@cloudflare/kv-asset-handler": "^0.1.0"
   }
 }

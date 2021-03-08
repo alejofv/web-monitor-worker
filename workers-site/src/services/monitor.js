@@ -1,4 +1,15 @@
 
+async function webMonitor() {
+  // Get sites list from KV
+  const sites = await WebMonitorKV.get("sites", "json")
+  if (!Array.isArray(sites))
+    return;
+
+  for (const site of sites) {
+    await checkSite(site)
+  }
+}
+
 const checkSite = async (siteUrl) => {
   console.log('Checking site: ' + siteUrl)
   try {
@@ -16,4 +27,4 @@ const checkSite = async (siteUrl) => {
   }
 }
 
-export { checkSite }
+export { webMonitor }

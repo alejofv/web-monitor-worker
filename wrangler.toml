@@ -10,3 +10,7 @@ zone_id = ""
 kv-namespaces = [
     { binding = "WebMonitorKV", id = "6b4a621a153848f88056cca03bd78469", preview_id = "6b4a621a153848f88056cca03bd78469" }
 ]
+
+[site]
+bucket = "./site" # Add the directory with your static assets!
+entry-point = "./workers-site" # JS folder serving your assets

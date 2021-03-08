@@ -1,0 +1,12 @@
+{
+  "name": "vite-monitor-worker",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite src",
+    "build": "vite build src",
+    "serve": "vite preview src"
+  },
+  "devDependencies": {
+    "vite": "^2.0.5"
+  }
+}

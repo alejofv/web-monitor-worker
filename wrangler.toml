@@ -12,5 +12,5 @@ kv-namespaces = [
 ]
 
 [site]
-bucket = "./site" # Add the directory with your static assets!
-entry-point = "./workers-site" # JS folder serving your assets
+bucket = "./src/dist" # Directory with static assets
+entry-point = "./workers-site" # JS folder serving assets
